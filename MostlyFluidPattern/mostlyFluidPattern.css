@@ -1,0 +1,59 @@
+@media screen and (min-width: 992px){
+  .blue-box {
+    height: 300px;
+  }
+ .red-box{
+    height: 450px;
+  }
+  .green-box{
+    height: 450px;
+  }
+  .yellow-box{
+    height: 450px;
+  }
+  .myFont{
+    margin: 15px;
+    font-size: 1.35em;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  #mainDiv{
+    width: 100%;
+  }
+  .blue-box {
+    height: 225px; 
+  }
+  .red-box{
+    height:350px;
+  }
+  .green-box{
+    height:350px;
+  }
+  .yellow-box{
+    height:350px;
+  }
+  .myFont{
+    margin: 25px;
+    font-size: 1.1em;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .blue-box {
+    height:200px; 
+  }
+  .red-box{
+    height:175px;
+  }
+  .green-box{
+    height:175px;
+  }
+  .yellow-box{
+    height:175px;
+  }
+  .myFont{
+    padding: 20px;  
+    font-size: 1.35vmax;
+  }
+}

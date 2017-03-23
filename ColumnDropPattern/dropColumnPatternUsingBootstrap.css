@@ -1,0 +1,47 @@
+@media screen and (min-width: 992px){
+  .blue-box {
+    height: 450px; 
+  }
+  .subDiv{
+    height: 450px; 
+  }
+  .red-box{
+      height:225px;
+  }
+  .green-box{
+      height:225px;
+  }
+  .yellow-box{
+      height:225px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+  .blue-box {
+    height: 300px; 
+  }
+  .red-box{
+    height:225px;
+  }
+  .green-box{
+    height:225px;
+  }
+  .yellow-box{
+    height:225px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .blue-box {
+    height: 150px; 
+  }
+  .red-box{
+    height:150px;
+  }
+  .green-box{
+    height:150px;
+  }
+  .yellow-box{
+    height:150px;
+  }
+}

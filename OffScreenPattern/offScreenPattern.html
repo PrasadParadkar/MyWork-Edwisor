@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="offScreenPattern.css">
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  	<script type="text/javascript" src="offScreenPattern.js"></script>
+</head>
+
+<body>
+	<div id="wrapper">
+		<nav id="menubar"  class="navbar navbar-inverse navbar-fixed-top">
+	  		<div class="container-fluid">
+	    		<div class="navbar-header">
+	      			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
+	        			<span class="icon-bar"></span>
+		        		<span class="icon-bar"></span>
+		        		<span class="icon-bar"></span>                        
+	      			</button>
+
+					<div  class="navbar-brand">
+	                    <a id="menu-toggle" href="#" class="glyphicon glyphicon-align-justify hidden-lg hidden-md hidden-sm hidden-xs"></a>
+	    				<a id="websiteName" href="#">MyWebsite</a>
+	                </div>
+	    		</div>
+	    		<div class="collapse navbar-collapse" id="myNavbar">
+			      	<ul id="subMenu" class="nav navbar-nav">
+			        	<li><a href="#">Home</a></li>
+			        	<li><a href="#">Page 1</a></li>
+			        	<li><a href="#">Page 2</a></li>
+	      			</ul>
+	    		</div>
+	  		</div>
+		</nav>
+		<div id="sidebar-wrapper" class="hidden-lg hidden-md hidden-sm hidden-xs">
+	        <nav id="spy">
+	            <ul class="sidebar-nav nav">
+	                <li>
+	                    <a href="#home">
+	                    	<span class="fa fa-home solo">Home</span>
+	                    </a>
+	                </li>
+	                <li>
+	                    <a href="#anch1">
+	                        <span class="fa fa-anchor solo">Page 1</span>
+	                    </a>
+	                </li>
+	                <li>
+	                    <a href="#anch2">
+	                        <span class="fa fa-anchor solo">Page 2</span>
+	                    </a>
+	                </li>
+	            </ul>
+	        </nav>
+	    </div>
+    </div>
+</body>
+</html>
